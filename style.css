@@ -294,3 +294,8 @@ a {
   top: 150px;
   right: 44px;
 }
+.our-products{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
