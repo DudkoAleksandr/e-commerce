@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 a {
   text-decoration: none;
   color: #000000;
@@ -282,20 +287,107 @@ a {
   line-height: 60px;
   max-width: 443px;
 }
-.sale-music__main-btn{
-  background-color: #00FF66;
-  color: #FAFAFA;
+.sale-music__main-btn {
+  background-color: #00ff66;
+  color: #fafafa;
   padding: 16px 48px;
   border: none;
   border-radius: 4px;
 }
-.sale-music__img{
+.sale-music__img {
   position: absolute;
   top: 150px;
   right: 44px;
 }
-.our-products{
+.our-products {
   display: flex;
   flex-direction: column;
   gap: 60px;
+}
+
+.newarrival__cards {
+  display: flex;
+  gap: 30px;
+}
+.newarrival__ps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 600px;
+  background-color: #000;
+  color: #fafafa;
+  position: relative;
+}
+.newarrival__ps-main {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
+.newarrival__title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.newarrival__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+.newarrival__link {
+  color: #fafafa;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.newarrival__ps-img {
+  width: 511px;
+}
+.newarrival__other {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.newarrival__womens {
+  width: 570px;
+  height: 284px;
+  display: flex;
+  justify-content: end;
+  background-color: #000;
+  color: #fafafa;
+  position: relative;
+}
+.newarrival__womens-main {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+.newarrival__other-mini {
+  display: flex;
+  gap: 30px;
+}
+.newarrival__other-mini-card {
+  width: 270px;
+  height: 284px;
+  background: #000000;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.newarrival__other-mini-card-main {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+.newarrival__img{
+  width: 200px;
+  height: 222px;
 }
