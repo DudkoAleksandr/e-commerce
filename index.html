@@ -25,7 +25,7 @@
           <img src="./img/Logo.png" alt="logo" />
         </div>
         <div class="header__nav-link">
-          <a href="#">Home</a>
+          <a class="header__nav-link-hover" href="#">Home</a>
           <a href="#">Contact</a>
           <a href="#">About</a>
           <a href="#">Sign Up</a>
@@ -60,8 +60,10 @@
         </div>
         <div class="header__main-sale">
           <div class="header__main-sale-title">
-            <img src="./img/Apple_logo.png" alt="apple" />
-            <p class="sale__title">iPhone 14 Series</p>
+            <div class="header__main-sale-logo">
+              <img src="./img/Apple_logo.png" alt="apple" />
+              <p class="sale__title">iPhone 14 Series</p>
+            </div>
             <h2 class="sale__text">Up to 10% off Voucher</h2>
             <a class="header__sale-title-link" href="#">Shop Now</a>
           </div>
@@ -74,7 +76,7 @@
         <img src="./img/Rectangle.png" alt="rectangle" />
         <p>Today’s</p>
       </div>
-      <h2>Flash Sales</h2>
+      <h2 class="main__title-text">Flash Sales</h2>
       <div class="cards">
         <div class="card">
           <div class="card__main">
@@ -84,6 +86,7 @@
               <img src="./img/FillEye.png" alt="" />
             </div>
             <img class="card__main-img" src="./img/game.png" alt="" />
+            <button class="card__main-btn">Add To Cart</button>
           </div>
           <div class="card__title">
             <h2 class="card__title-title">HAVIT HV-G92 Gamepad</h2>
@@ -177,6 +180,7 @@
               <img src="./img/FillEye.png" alt="" />
             </div>
             <img class="card__main-img" src="./img/monitor.png" alt="" />
+            <button class="card__main-btn">Add To Cart</button>
           </div>
           <div class="card__title">
             <h2 class="card__title-title">IPS LCD Gaming Monitor</h2>
@@ -223,6 +227,7 @@
               <img src="./img/FillEye.png" alt="" />
             </div>
             <img class="card__main-img" src="./img/chair.png" alt="" />
+            <button class="card__main-btn">Add To Cart</button>
           </div>
           <div class="card__title">
             <h2 class="card__title-title">S-Series Comfort Chair</h2>
@@ -937,8 +942,16 @@
             <p class="footer__card-subtitle">Subscribe</p>
             <p class="footer__card-text">Get 10% off your first order</p>
             <form action="" class="footer__card-form">
-            <input class="footer__card-input" type="text" placeholder="Enter your email">
-            <img class="footer__card-input-img" src="./img/icon-send.png" alt="">
+              <input
+                class="footer__card-input"
+                type="text"
+                placeholder="Enter your email"
+              />
+              <img
+                class="footer__card-input-img"
+                src="./img/icon-send.png"
+                alt=""
+              />
             </form>
           </div>
           <div>
@@ -967,19 +980,29 @@
           <div class="footer__download">
             <p class="footer__card-title">Download App</p>
             <div class="footer__download-card">
-              <p class="footer__download-card-title">Save $3 with App New User Only</p>
+              <p class="footer__download-card-title">
+                Save $3 with App New User Only
+              </p>
               <div class="download">
-                <img class="download__qr" src="./img/QrCode.png" alt="">
+                <img class="download__qr" src="./img/QrCode.png" alt="" />
                 <div class="download__store">
-                  <img class="download__store-google" src="./img/google-play.png" alt="">
-                  <img class="download__store-apple" src="./img/appstore.png" alt="">
+                  <img
+                    class="download__store-google"
+                    src="./img/google-play.png"
+                    alt=""
+                  />
+                  <img
+                    class="download__store-apple"
+                    src="./img/appstore.png"
+                    alt=""
+                  />
                 </div>
               </div>
               <div class="footer__social">
-                <img src="./img/facebook.png" alt="">
-                <img src="./img/twitter.png" alt="">
-                <img src="./img/instagram.png" alt="">
-                <img src="./img/linkedin.png" alt="">
+                <img src="./img/facebook.png" alt="" />
+                <img src="./img/twitter.png" alt="" />
+                <img src="./img/instagram.png" alt="" />
+                <img src="./img/linkedin.png" alt="" />
               </div>
             </div>
           </div>

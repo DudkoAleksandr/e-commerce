@@ -10,6 +10,7 @@ a {
 .section {
   margin: 0 auto;
   width: 80%;
+  border: 1px solid red;
 }
 .header__sale {
   height: 48px;
@@ -54,6 +55,9 @@ a {
   display: flex;
   gap: 48px;
 }
+.header__nav-link-hover {
+  border-bottom: 1px solid black;
+}
 .nav__search-img {
   position: relative;
   display: flex;
@@ -77,6 +81,7 @@ a {
 .header__main {
   display: flex;
   justify-content: space-between;
+  /* max-height: 344px; */
 }
 .header__main-nav {
   width: 271px;
@@ -97,11 +102,30 @@ a {
   gap: 38px;
   margin-top: 40px;
 }
+.header__main-sale-title{
+  margin-left: 64px;
+}
+.header__main-sale-logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .sale__title {
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .sale__text {
   color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 4%;
 }
 .link__drop {
   display: flex;
@@ -123,6 +147,9 @@ a {
   margin-bottom: 24px;
   color: #db4444;
 }
+.main__title-text{
+  margin-bottom: 40px;
+}
 
 .cards {
   width: 100%;
@@ -132,6 +159,9 @@ a {
 .card {
   max-width: 270px;
   max-height: 350px;
+}
+.card:hover .card__main-btn{
+  display: block;
 }
 .card__main {
   display: flex;
@@ -169,6 +199,7 @@ a {
   align-self: center;
 }
 .card__main-btn {
+  display: none;
   background-color: #000000;
   border: none;
   color: #ffffff;
@@ -453,7 +484,7 @@ a {
   line-height: 24px;
 }
 
-.footer__card-form{
+.footer__card-form {
   position: relative;
 }
 .footer__card-input {
@@ -465,24 +496,24 @@ a {
   background-color: #000000;
   color: #fafafa;
 }
-.footer__card-input-img{
+.footer__card-input-img {
   position: absolute;
   top: 12px;
   right: 20px;
 }
 
-.download{
+.download {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.download__store{
+.download__store {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.footer__social{
+.footer__social {
   display: flex;
   gap: 24px;
 }
